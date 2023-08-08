@@ -1,1 +1,2 @@
 -> It's about switch- case learning. I learbed yield which i've never seen before java.
+-> I coded result of array of fibonacci in java in ArrayOfFibonacci.java.
