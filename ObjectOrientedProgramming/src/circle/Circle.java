@@ -3,6 +3,12 @@ package circle;
 public class Circle {
 	public double radius;
 	
+	Circle() {
+		this(10);
+	}
+	Circle(double newRadius){
+		radius = newRadius;
+	}
 	public double periemeterOfCircle(double radius)
 	{
 			double perimeterOfCircle = 2*Math.PI*radius;
