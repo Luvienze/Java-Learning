@@ -7,8 +7,12 @@ public class Classroom {
 	Professor classProfessor;
 	Student[] classStudents;
 	Department department;
-	
-	public void setName (String newName) {
+	{
+		name = "ClassRoom B1";
+		code = 1;
+		
+	}
+	/*public void setName (String newName) {
 		name = newName;
 	}
 	public void setCode (int newCode) {
@@ -25,6 +29,24 @@ public class Classroom {
 	}
 	public void getDepartment (Department newDepartment) {
 		department = newDepartment;
+	}*/
+	public void setName (String name) {
+		this.name = name;
+	}
+	public void setCode (int code) {
+		this.code = code;
+	}
+	public void getCoure (Course classCourse) {
+		this.classCourse = classCourse;
+	}
+	public void getProfessor (Professor classProfessor) {
+		this.classProfessor = classProfessor;
+	}
+	public void getStudent(Student[] classStudents) {
+		this.classStudents = classStudents;
+	}
+	public void getDepartment (Department department) {
+		this.department = department;
 	}
 	
 }
