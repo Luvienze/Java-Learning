@@ -3,7 +3,7 @@ package university;
 import java.util.Date;
 
 public class Course {
-	String code;
+	int code;
 	String name;
 	Department department;
 	Professor teacher;
@@ -11,8 +11,12 @@ public class Course {
 	String[] days;
 	Classroom classroom;
 	Date time;
+	{
+		name = "Algorithms";
+		code = 101;
+	}
 	
-	public void setCode (String newCode) {
+	/*public void setCode (String newCode) {
 		code = newCode;
 	}
 	public void setName (String newName) {
@@ -34,8 +38,28 @@ public class Course {
 	/*public void getStudent (Student newStudents) {
 		students = newStudents;
 	}*/
-	public void getDays (String[] newDays) {
+	/*public void getDays (String[] newDays) {
 		days = newDays;
+	}*/
+	public void setCode (int code) {
+		this.code = code;
 	}
-
+	public void setName (String name) {
+		this.name = name;
+	}
+	public void setTeacher (Professor teacher) {
+		this.teacher = teacher;
+	}
+	public void setDepartment (Department department) {
+		this.department = department;
+	}
+	public void setClassroom (Classroom classroom) {
+		this.classroom = classroom;
+	}
+	public void setStudent(Student[] students) {
+		this.students = students;
+	}
+	public void getDays(String[] days) {
+		this.days = days;
+	}
 }
