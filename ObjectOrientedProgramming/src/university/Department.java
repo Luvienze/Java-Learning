@@ -7,8 +7,11 @@ public class Department {
 	Course course;
 	Student[] students;
 	Classroom[] classrooms;
+	{
+		name = "Computer Science";
+	}
 	
-	public void setName( String newName) {
+	/*public void setName( String newName) {
 		name = newName;
 	}
 	public void setProfessor (Professor newHead) {
@@ -25,6 +28,24 @@ public class Department {
 	}
 	public void setClassroom (Classroom[] newClassrooms) {
 		classrooms = newClassrooms;
+	}*/
+	
+	public void setName( String name) {
+		this.name = name;
 	}
-
+	public void setProfessor (Professor head) {
+		this.head = head;
+	}
+	public void setCourse (Course[] courses) {
+		this.courses = courses;
+	}
+	public void getCourse (Course course) {
+		this.course = course;
+	}
+	public void setStudent (Student[] students) {
+		this.students = students;
+	}
+	public void setClassroom (Classroom[] classrooms) {
+		this.classrooms = classrooms;
+	}
 }
