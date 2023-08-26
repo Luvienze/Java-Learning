@@ -11,7 +11,7 @@ public class Professor {
 	Course courseTaken;
 	Classroom classroomHead;
 	
-	public void setName (String newName) {
+	/*public void setName (String newName) {
 		name = newName;
 	}
 	public void getDepartment (Department newDepartment) {
@@ -33,6 +33,27 @@ public class Professor {
 
 	public void setClassroomHead (Classroom newClassroomHead) {
 		classroomHead = newClassroomHead;
+	}*/
+	public void setName (String name) {
+		this.name = name;
+	}
+	public void getDepartment (Department department) {
+		this.department = department;
+	}
+	public void setStudent (Student[] advisees) {
+		this.advisees = advisees;
+	}
+	public void getStudent (Student advisee) {
+		this.advisee = advisee;
+	}
+	public void setCourse (Course[] courseGiven) {
+		this.courseGiven = courseGiven;
+	}
+	public void getCourse (Course courseTaken) {
+		this.courseTaken = courseTaken;
 	}
 
+	public void setClassroomHead (Classroom classroomHead) {
+		this.classroomHead = classroomHead;
+	}
 }
