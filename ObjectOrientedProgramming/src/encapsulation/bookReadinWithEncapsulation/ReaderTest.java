@@ -21,15 +21,15 @@ public class ReaderTest {
 		//Book
 		Book book1 = new Book();	
 		Book book2 = new Book();	
-		
 		book1.setBookTitle("Dune");
-		book1.setBookType("Sci-Fi");
+		book1.setBookType(BookType.Sci_Fi);
 		book1.setBookPage(659);
 		book1.setCoverType(true);
 		book1.setBookAuthor(author1);
 		
 		book2.setBookTitle("Wuthering Heights");
-		book2.setBookType("Romance, Tradegy");
+		book2.setBookType(BookType.Drama);
+		book2.setBookType(BookType.Romance);
 		book2.setBookPage(408);
 		book1.setCoverType(false);
 		book2.setBookAuthor(author2);
