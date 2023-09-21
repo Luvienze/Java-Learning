@@ -31,13 +31,13 @@ public class Author {
 	}
 
 	public void printAuthorName() {
-		System.out.println(name);
+		System.out.println("Author's name: " + name);
 	}
 	public void printAuthorAge() {
-		System.out.println(age);
+		System.out.println("Author's age: " + age);
 	}
 	public void printAuthorSex() {
-		System.out.println(sex);
+		System.out.println("Author's sex: " + sex);
 	}
 	public void printAuthorBook() {
 		book.printBookInfo();
