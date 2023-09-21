@@ -1,10 +1,10 @@
-package bookReadinWithEncapsulation;
+ppackage bookReadinWithEncapsulation;
 
 public class Book {
 	private String title;
 	private int page;
 	private int currentPage;
-	private String type;
+	private BookType bookType;
 	private boolean isHardCover;
 	private Author author;
 	private Reader currentReader;
@@ -19,8 +19,8 @@ public class Book {
 	public void setBookPage(int page) {
 		this.page = page;
 	}
-	public void setBookType(String type) {
-		this.type = type;
+	public void setBookType(BookType bookType) {
+		this.bookType = bookType;
 	}
 	public boolean setCoverType(boolean coverType) {
 		if(this.isHardCover = coverType) {
@@ -37,21 +37,21 @@ public class Book {
 
 	
 	public void printBookTitle() {
-		System.out.println(title);
+		System.out.println("Title: " + title);
 	}
 	public void printBookType() {
-		System.out.println(type);
+		System.out.println("Book type: " + bookType);
 	}
 	public void printBookPage() {
-		System.out.println(page);
+		System.out.println("Pages: " + page);
 	}
 	public void printBookCover() {
 		if(isHardCover = true) {
-			System.out.println("Hardcovered");
+			System.out.println("Cover: Hardcovered");
 		}
 		else
 		{
-			System.out.println("Softcovered");
+			System.out.println("Cover: Softcovered");
 		}
 	}
 	public void printBookInfo() {
