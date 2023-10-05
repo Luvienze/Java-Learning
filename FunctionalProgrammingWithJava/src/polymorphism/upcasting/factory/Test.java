@@ -1,0 +1,26 @@
+package polymorphism.upcasting.factory;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Employee e1 = new Employee(1, "Ali", 8 ,"Production");
+		//e1.printInfo();
+		//System.out.println("Maasi: " + e1.calculateSalary());
+		//e1.work();
+		
+		System.out.println();
+		
+		Manager m1 = new Manager(2, "Fatma", 3, "Production", "Production");
+		//m1.printInfo();
+		//System.out.println("Maasi: " + m1.calculateSalary());
+		//m1.work();
+		
+		System.out.println();
+		
+		Director d1 = new Director(4, "Mehmet", 20, "Management", "Managemnt", 3000);
+		//d1.printInfo();
+		//System.out.println("Maasi: " + d1.calculateSalary());
+		//d1.work();
+	}
+
+}
