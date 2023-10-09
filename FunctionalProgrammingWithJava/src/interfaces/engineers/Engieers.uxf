@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>210</y>
+      <w>240</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>interface InstrumentPlayer
+--
+playInstrument(String): void
+buyInstrument(String): void
+cleanInstrument(String): void
+stopPlayingInstrument(String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>50</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>interface JavaEnthusiast
+--
+studyJava(): void
+buildAppWithJava(String): void
+openIDE(String): void
+commitCode(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>470</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>interface Parent
+--
+feedKids(): void
+readBookToKids(String): void
+cook(String): void
+goToHoliday(String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>340</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>interface TeamFan
+--
+watchMatch(): void
+goToStadiım(String): void
+supportTeam(String): void
+cheer(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>50</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>interface Blogger
+--
+read(BString): void 
+write(String)	: void 
+publishBlog(String(): void 
+deleteBlog(String): void </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>30</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>interface Person
+--
+getName(): String
+toString() : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>180</y>
+      <w>210</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>abstract class Engineers
+--
+name:String
+age:int
+profession:String
+--
+Engineer(String, int, String)
+getName(): String
+setName(String): void
+getAge(): int
+setAge(int age): void
+getProfession():String
+setProfeesion(String): void
+printInfo(): void
+toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>570</y>
+      <w>290</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>class TeamFanParentEngineer
+--
+TeamFanParentEngineer(String,int, String)
+watchMatch(): void
+goToStadium(String): void
+supportTeam(String): void
+cheer(): void
+feedKids(): void
+readBookToKids(String): void
+cook(String): void
+goToHoliday(String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>570</y>
+      <w>250</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>class JavaEnthBlogger
+--
+JavaEnthBlogger(String, int, String)
+write(String): void
+read(String): void
+publishBlog(String) : void
+deleteBlog(String) : void
+studyJava(): void
+buildAppWithJava(String): void
+openIDE(String): void
+commitCode(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>90</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>410</y>
+      <w>30</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>360</y>
+      <w>220</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;10.0;200.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>140</y>
+      <w>430</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>410.0;10.0;410.0;130.0;200.0;130.0;200.0;360.0;10.0;360.0;10.0;430.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>140</y>
+      <w>190</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;290.0;10.0;290.0;10.0;430.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>380</y>
+      <w>250</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>480</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>
